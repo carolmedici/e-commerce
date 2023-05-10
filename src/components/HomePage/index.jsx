@@ -1,11 +1,12 @@
 import Header from "../Header"
+import ProfileSearch from "../Header/ProfileSearch"
 
 const HomePage = () =>{
     return(
         <>
         <Header />
-        <h1>E-commerce</h1>
-        <p>Bem vindo :)</p>
+        <ProfileSearch />
+       
         
         </>
     )
