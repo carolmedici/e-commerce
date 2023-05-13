@@ -1,6 +1,7 @@
 import Banner from "../Banner"
 import Header from "../Header"
 import ProfileSearch from "../Header/ProfileSearch"
+import Products from "../Products"
 
 const HomePage = () =>{
     return(
@@ -8,6 +9,7 @@ const HomePage = () =>{
         <Header />
         <ProfileSearch />
         <Banner/>
+        <Products />
        
         
         </>

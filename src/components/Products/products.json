@@ -1,0 +1,38 @@
+[
+    {
+      "productName": "Sun glass",
+      "descriptionShort": "Sun glass",
+      "photo": "../",
+      "price": 15000    
+    },
+    {
+        "productName": "Sun glass",
+        "descriptionShort": "Sun glass",
+        "photo": "../",
+        "price": 15000   
+      },
+      {
+        "productName": "Sun glass",
+        "descriptionShort": "Sun glass",
+        "photo": "../",
+        "price": 15000    
+      },
+      {
+        "productName": "Sun glass",
+        "descriptionShort": "Sun glass",
+        "photo": "../",
+        "price": 15000    
+      },
+      {
+        "productName": "Sun glass",
+        "descriptionShort": "Sun glass",
+        "photo": "../",
+        "price": 15000    
+      },
+      {
+        "productName": "Sun glass",
+        "descriptionShort": "Sun glass",
+        "photo": "../",
+        "price": 15000    
+      }
+  ]

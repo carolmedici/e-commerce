@@ -16,7 +16,8 @@ export default class Banner extends Component{
             infinite: true,
             spedd: 500,
             slidesToShow: 1,
-            slidesToScrow: 1
+            slidesToScrow: 1,
+            
         };
 
     return(
