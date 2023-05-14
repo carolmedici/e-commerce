@@ -1,38 +1,38 @@
 [
     {
-      "productName": "Sun glass",
+      "productName": "Aviator Sun Glass",
       "descriptionShort": "Sun glass",
-      "photo": "../",
-      "price": 15000    
+      "photo": "./images/aviatorglass.jpg",
+      "price": 150   
     },
     {
-        "productName": "Sun glass",
+        "productName": "Beach Sun Glass",
+        "descriptionShort": "Sun glass",
+        "photo": "./images/beachglass.jpg",
+        "price": 150   
+      },
+      {
+        "productName": "Round Sun Glass",
         "descriptionShort": "Sun glass",
         "photo": "../",
-        "price": 15000   
+        "price": 200    
+      },
+      {
+        "productName": "Wood Sun Glass",
+        "descriptionShort": "Sun glass",
+        "photo": "../",
+        "price": 130    
+      },
+      {
+        "productName": "Classic Sun Glass",
+        "descriptionShort": "Sun glass",
+        "photo": "../",
+        "price": 170    
       },
       {
         "productName": "Sun glass",
         "descriptionShort": "Sun glass",
         "photo": "../",
-        "price": 15000    
-      },
-      {
-        "productName": "Sun glass",
-        "descriptionShort": "Sun glass",
-        "photo": "../",
-        "price": 15000    
-      },
-      {
-        "productName": "Sun glass",
-        "descriptionShort": "Sun glass",
-        "photo": "../",
-        "price": 15000    
-      },
-      {
-        "productName": "Sun glass",
-        "descriptionShort": "Sun glass",
-        "photo": "../",
-        "price": 15000    
+        "price": 140    
       }
   ]
