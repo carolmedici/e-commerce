@@ -4,13 +4,13 @@ import React from "react";
 
 const Products = () => {
   return (
-    <>
+    <div className="flex flex-wrap">
       {products.map((product) => (
-        <div key={product.tag}>
+        <div key={product.tag} className="w-full md:w-1/3 p-1">
           <Card product={product} />
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

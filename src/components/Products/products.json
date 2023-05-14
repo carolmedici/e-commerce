@@ -2,37 +2,37 @@
     {
       "productName": "Aviator Sun Glass",
       "descriptionShort": "Sun glass",
-      "photo": "./images/aviatorglass.jpg",
+      "photo": "https://github.com/carolmedici/e-commerce/blob/main/src/components/Products/images/aviatorglass.jpg?raw=true",
       "price": 150   
     },
     {
         "productName": "Beach Sun Glass",
         "descriptionShort": "Sun glass",
-        "photo": "./images/beachglass.jpg",
+        "photo": "https://github.com/carolmedici/e-commerce/blob/main/src/components/Products/images/beachglass.jpg?raw=true",
         "price": 150   
       },
       {
         "productName": "Round Sun Glass",
         "descriptionShort": "Sun glass",
-        "photo": "../",
+        "photo": "https://github.com/carolmedici/e-commerce/blob/main/src/components/Products/images/roundglass.jpg?raw=true",
         "price": 200    
       },
       {
         "productName": "Wood Sun Glass",
         "descriptionShort": "Sun glass",
-        "photo": "../",
-        "price": 130    
+        "photo": "https://github.com/carolmedici/e-commerce/blob/main/src/components/Products/images/woodglass.jpg?raw=true",
+        "price": 160    
       },
       {
         "productName": "Classic Sun Glass",
         "descriptionShort": "Sun glass",
-        "photo": "../",
+        "photo": "https://github.com/carolmedici/e-commerce/blob/main/src/components/Products/images/classicglass.jpg?raw=true",
         "price": 170    
       },
       {
         "productName": "Sun glass",
         "descriptionShort": "Sun glass",
-        "photo": "../",
+        "photo": "https://github.com/carolmedici/e-commerce/blob/main/src/components/Products/images/sunglass.jpg?raw=true",
         "price": 140    
       }
   ]
