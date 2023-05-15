@@ -19,7 +19,7 @@ const Card = ({ product }) => {
               <p className="line-through text-base ml-5">$ {product.price}</p>
               <span className="text-xl ml-5 my-1">$ {product.price * 0.9}</span>
               <span className="text-xs ml-2">or 2x $ {product.price / 2}</span>
-              <p className="text-xs ml-5 my-2 text-pink-400">Free Shipping</p>
+              <p className="text-xs ml-5 my-2 text-pink-400 animate-pulse">Free Shipping</p>
               <div className="flex justify-center">
                 <button className="bg-pink-400 hover:bg-pink-800 rounded-lg py-1 px-36 my-1 text-white" >BUY</button>
               </div>

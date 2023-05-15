@@ -6,7 +6,7 @@ const Products = () => {
   return (
     <div className="flex flex-wrap">
       {products.map((product) => (
-        <div key={product.tag} className="w-full md:w-1/3 p-1">
+        <div key={product.tag} className="w-full md:w-1/4 p-0">
           <Card product={product} />
         </div>
       ))}
