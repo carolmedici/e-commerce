@@ -1,15 +1,17 @@
 import Banner from "../Banner"
+import Footer from "../Footer/Index"
 import Header from "../Header"
-import ProfileSearch from "../Header/ProfileSearch"
+
 import Products from "../Products"
 
 const HomePage = () =>{
     return(
         <>
         <Header />
-        <ProfileSearch />
+       
         <Banner/>
         <Products />
+        <Footer />
        
         
         </>
