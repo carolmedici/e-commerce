@@ -13,7 +13,7 @@ const Card = ({ product }) => {
       <ul >  
         <li   key={product.tag}>
           <div className="shadow-lg shadow-pink-400/30 w-80 h-100 m-10 rounded-lg">
-          <img id="image" className="hover:scale-125 p-3 rounded-lg w-50 h-30 card-image" src={product.photo} alt={product.productName} />
+          <img id="image" className="p-3 rounded-lg w-50 h-30 card-image" src={product.photo} alt={product.productName} />
 
               <h1 className="text-2xl my-2 text-center">{product.productName}</h1>
               <p className="line-through text-base ml-5">$ {product.price}</p>
