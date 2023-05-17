@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import search from "./image/search.svg";
 import user from "./image/user.svg";
 import box from "./image/box.svg";
@@ -7,6 +7,22 @@ import CartModal from "../../CartModal";
 
 const ProfileSearch = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProducts, setSelectedProducts] = useState([]);
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetchProducts();
+  }, []);
+
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch("/path/to/products.json");
+      const data = await response.json();
+      setProducts(data);
+    } catch (error) {
+      console.error("Error fetching products:", error);
+    }
+  };
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -14,6 +30,10 @@ const ProfileSearch = () => {
 
   const closeModal = () => {
     setIsModalOpen(false);
+  };
+
+  const addToCart = (product) => {
+    setSelectedProducts((prevProducts) => [...prevProducts, product]);
   };
 
   return (
@@ -41,7 +61,7 @@ const ProfileSearch = () => {
       </div>
 
       {isModalOpen && (
-        <CartModal closeModal={closeModal} />
+        <CartModal closeModal={closeModal} selectedProducts={selectedProducts} addToCart={addToCart} />
       )}
     </div>
   );
